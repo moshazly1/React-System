@@ -1,0 +1,60 @@
+/*Globel*/
+.content-flex {
+  display: flex;
+}
+.fa-users,
+.fa-user-plus,
+.fa-product-hunt,
+.fa-plus {
+  color: #183153;
+  margin-right: 10px;
+}
+
+/*Side Bar*/
+.side-bar {
+  width: 20%;
+  padding: 20px;
+  height: 100vh;
+  border-right: 1px solid #cbc9c9;
+}
+.item-link {
+  color: black;
+  text-decoration: none;
+  font-size: 22px;
+  display: block;
+  margin-bottom: 10px;
+  transition: 0.1s;
+  padding: 8px;
+}
+.item-link:hover {
+  background-color: #a0c8cf;
+  border-radius: 12px;
+}
+.active {
+  background-color: #a0c8cf;
+  border-radius: 12px;
+}
+/*Table*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+tr:nth-child(even) {
+  background: #f1f7f8;
+}
+th,
+td {
+  border: 1px solid #a8c8cf;
+  padding: 0.75rem;
+  text-align: center;
+}
+th {
+  background: #74afb9;
+  color: #fff;
+}
+td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
